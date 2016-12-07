@@ -1,0 +1,94 @@
+nav.nav{
+  visibility: hidden;
+  opacity: 0;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index:99;
+  background:rgba(0,0,0,.8);
+
+
+  li.nav-item{
+    float:left;
+    position: relative;
+    display: flex;
+    width:100%;
+    background:$brand-green;
+    align-items: center;
+    overflow:hidden;
+
+    .image{
+      opacity:0.5;
+      transition: opacity .3s ease-in-out;
+    }
+
+    img{
+      position: absolute;
+      display: block;
+      right:0;
+      top:0;
+      z-index: 0;
+      filter: grayscale(98%);
+      transform: scale(1);
+
+      transition: transform 3s ease-in-out, filter .1s;
+    }
+
+    hgroup{
+      position: relative;
+      z-index: 1;
+      color:white;
+    }
+
+
+    @include screen(medium){
+      padding:5%;
+      width:50%;
+      height:50vh;
+      background-size:contain;
+
+      &:nth-child(1){
+        // background-image: url(assets/images/nav-about-lrg.jpg);
+      }
+
+      h2{
+        font-size: em(70px);
+      }
+    }
+
+    &:hover{
+      .image{
+        opacity:1;
+      }
+      img{
+        filter: grayscale(0);
+        opacity:1;
+	      filter: none;
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+
+
+.main-header{
+  .hamburger-btn{
+    position: fixed;
+    top:0;
+    right:0;
+    z-index: 100;
+  }
+  &--visible{
+    nav.nav{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.logo{
+
+}

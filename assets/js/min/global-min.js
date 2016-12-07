@@ -1,0 +1,1 @@
+!function($){var e=$(".hamburger-btn"),a=$(".main-header"),i=$("body");e.on("click",function(){i.toggleClass("body--scroll-fix"),a.toggleClass("main-header--visible")})}(jQuery);
