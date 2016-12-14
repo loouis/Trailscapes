@@ -1,0 +1,46 @@
+body.about{
+  background:$brand-green;
+
+  .split-screen--right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    right:0;
+    top:0;
+    height:100vh;
+    background-image:url('assets/images/about-right-01.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    li{
+      font-family: $h-font;
+      color:white;
+      font-size:em(24px);
+      line-height: 1.2em;
+      letter-spacing: 0.03em;
+    }
+
+    .services{
+      position: relative;
+
+      h4{
+        color:white;
+        position:absolute;
+        transform:translateX(-80%) translateY(140%) rotate(-90deg);
+      }
+    }
+  }
+
+  .split-screen--left{
+    position: relative;
+    background:$brand-green;
+
+    p{
+      margin-bottom:20px;
+    }
+    h1, p{
+      color:$brand-brown;
+    }
+  }
+}

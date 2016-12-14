@@ -1,0 +1,16 @@
+.contact-link{
+  display:block;
+  width:100%;
+  clear:both;
+
+  i{
+    float:left;
+    width:30px;
+    height:30px;
+    margin:3px 15px 0 0;
+  }
+
+  i,p{
+    float:left;
+  }
+}

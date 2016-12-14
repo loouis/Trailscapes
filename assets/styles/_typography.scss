@@ -12,6 +12,30 @@ h1, h2, h3, h4, h5{
   letter-spacing: 0.06em;
 }
 
+
+h1{
+  font-size: em(42px);
+  color:$brand-brown;
+  line-height: 1.3em;
+}
+
 h2{
-  // font-size: em(80px);
+  font-size: em(36px);
+}
+
+p{
+  font-family:$p-font;
+  line-height: 1.6em;
+  font-weight: 100;
+}
+
+@include screen(medium){
+  h1{
+    font-size: em(36px);
+    color:$brand-brown;
+    line-height: 1.4em;
+  }
+  h2{
+    font-size: em(70px);
+  }
 }

@@ -1,0 +1,47 @@
+<!-- contents of external ajax file -->
+
+  <div class="gallery-container">
+    
+    <div class="slider-container">
+      <ul class="bxslider">
+        <li><img src="../../assets/images/services-track-large-01.jpg" /></li>
+        <li><img src="../../assets/images/services-track-large-01.jpg" /></li>
+        <li><img src="../../assets/images/services-track-large-01.jpg" /></li>
+      </ul>
+    </div>
+
+    <div id="bx-pager">
+      <a data-slide-index="0" href=""><img src="../../assets/images/services-track-thumb-01.jpg" /></a>
+      <a data-slide-index="1" href=""><img src="../../assets/images/services-track-thumb-01.jpg" /></a>
+      <a data-slide-index="2" href=""><img src="../../assets/images/services-track-thumb-01.jpg" /></a>
+    </div>
+
+    <script>
+
+      slider = $('.bxslider').bxSlider({pagerCustom: '#bx-pager'});
+
+      (function($){
+
+        // BX Slider
+
+        var sliderOptions = {pagerCustom: '#bx-pager'};
+
+
+        //
+
+          // $('.distroy').click(function(){
+          //   console.log("distroying");
+          //   alert("hello");
+          //   slider.destroySlider();
+          // });
+
+          // slider.reloadSlider();
+
+        // $(".bxslider").bxSlider({
+        //   pagerCustom: '#bx-pager',
+        // });
+
+      })(jQuery);
+    </script>
+
+</div>

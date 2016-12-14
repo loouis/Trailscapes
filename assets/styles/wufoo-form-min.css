@@ -1,0 +1,65 @@
+#header{
+  display:none;
+}
+#container, html.embed{
+  background:none !important;
+}
+
+input.field, textarea, textarea.textarea{
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.wufoo{
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+.wufoo label.desc, .wufoo legend.desc, label.desc, legend.desc{
+  font-weight: normal;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+
+/*.noI form li, .altInstruct form li{
+  position:relative;
+}*/
+
+/*.focused{
+  transform: translateY(0px);
+  z-index: 0;
+  font-size: 10px;
+}
+
+.wufoo label.desc, .wufoo legend.desc, label.desc, legend.desc{
+  transform: translateY(16px);
+  z-index: 0;
+  font-size: 10px;
+}*/
+
+/* ----------------------------------  Focused styles */
+
+
+.wufoo li.focused, form li.focused{
+  background:transparent !important;
+  border-bottom:1px solid black;
+}
+
+
+
+/* ----------------------------------  //Focused styles */
+
+select{
+  font-family: "brandon-grotesque", sans-serif !important;
+}
+
+input[type="submit"] {
+  font-family: 'VeneerTwo' !important;
+}
+
+form li{
+  margin: 20px 0;
+}

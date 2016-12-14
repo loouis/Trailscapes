@@ -60,7 +60,12 @@ a{
 	display: block;
 }
 
-img{
+button{
+	outline:none;
+	border:none;
+}
+
+img, svg{
 	width:100%;
 	height:auto;
 }

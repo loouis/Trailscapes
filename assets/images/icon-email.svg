@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon: Email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6:-Contact" transform="translate(-110.000000, -448.000000)" stroke="#5A5129">
+            <g id="Left-side">
+                <g id="Email" transform="translate(111.000000, 445.000000)">
+                    <g id="Icon:-Email" transform="translate(0.000000, 4.000000)">
+                        <polyline id="Stroke-1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="19.8275862 14.2241379 19.8275862 0 5.17241379 0 5.17241379 14.2241379"></polyline>
+                        <path d="M8.5,5.5 L16.5,5.5" id="Path-4"></path>
+                        <path d="M8.5,8.5 L16.5,8.5" id="Path-4-Copy"></path>
+                        <path d="M8.5,11.5 L16.5,11.5" id="Path-4-Copy-2"></path>
+                        <path id="Stroke-7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Group-14" transform="translate(0.000000, 10.344828)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M25,13.7931034 L0,13.7931034 L0,6.03448276 L8.62068966,6.03448276 L8.62068966,7.32758621 C8.62068966,8.52327586 9.14913793,9.48275862 10.3448276,9.48275862 L15.0862069,9.48275862 C16.2818966,9.48275862 17.2413793,8.52327586 17.2413793,7.32758621 L17.2413793,6.03448276 L25,6.03448276 L25,13.7931034 Z" id="Stroke-8"></path>
+                            <polyline id="Stroke-10" points="0 6.03448276 3.87931034 -3.41060513e-13 5.17241379 -3.41060513e-13"></polyline>
+                            <polyline id="Stroke-12" points="19.8275862 -3.41060513e-13 21.1206897 -3.41060513e-13 25 6.03448276"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

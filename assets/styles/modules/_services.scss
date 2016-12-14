@@ -1,0 +1,80 @@
+body.services-trailbuilds{
+  background-size: cover;
+  background-image: url(assets/images/servies-trailbuilds-bg.jpg);
+}
+
+body.lay-split-screen{
+  .split-screen--left{
+    position: fixed;
+    background: rgba(90, 81, 41, 0.5);
+    padding: 15% 15% 0 7.5%;
+  }
+}
+
+body.lay-split-screen{
+  .split-screen--right{
+    float: right;
+    position: relative;
+  }
+}
+
+.services-text{
+  h1, p{
+    color:white;
+  }
+}
+
+.gallery{
+  position: absolute;
+  top: 15%;
+  right: 0;
+  padding-top: 22%;
+  left: -20%;
+  height: 500px;
+
+  .featured-image{
+    width: 80%;
+    position: relative;
+    // background: rgba($brand-green, .6);
+    box-shadow:0 0 12px rgba(0,0,0,.4);
+
+    &:focus{
+      outline:none;
+      box-shadow:none;
+    }
+
+    img{
+      display: block;
+    }
+  }
+
+  &-pager{
+    padding-top:20px;
+    position: absolute;
+    width:33%;
+    // background:white;
+
+    li{
+      float:left;
+      width:30%;
+      margin:2%;
+      height:55px;
+      background:black;
+      margin-top:3%;
+
+      &:nth-child(1){
+        margin-left:0;
+      }
+
+      &:nth-child(3){
+        margin-right:0;
+      }
+
+      &:nth-child(2){
+        width:32%;
+        height:70px;
+        margin-top:0;
+      }
+    }
+  }
+}
