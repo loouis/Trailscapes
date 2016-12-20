@@ -7,6 +7,11 @@
   color: $brand-brown;
 }
 
+.mask{
+  overflow:hidden;
+  padding-bottom:5px;
+}
+
 #top, #bottom, #left, #right{
   display:none;
 }
@@ -16,7 +21,7 @@
   // ----- Website border
   #top, #bottom, #left, #right {
     display:block;
-  	background: $brand-brown;
+  	background: darken($brand-green, 10%);
   	position: fixed;
     z-index: 101;
   }

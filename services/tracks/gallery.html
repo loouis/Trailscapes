@@ -1,0 +1,44 @@
+<!-- Styles -->
+<style>
+/* Smallest screen */
+.tracks-gallery li.g1{background: url('../../assets/images/gfull-london-mill-01.jpg');}
+.tracks-gallery li.g2{background: url('../../assets/images/gfull-london-mill-02.jpg');}
+.tracks-gallery li.g3{background: url('../../assets/images/gfull-london-mill-03.jpg');}
+.tracks-gallery li.g4{background: url('../../assets/images/gfull-london-mill-04.jpg');}
+.tracks-gallery li.g5{background: url('../../assets/images/gfull-hemyock-01.jpg');}
+.tracks-gallery li.g6{background: url('../../assets/images/gfull-hemyock-02.jpg');}
+.tracks-gallery li.g7{background: url('../../assets/images/gfull-cycle-show-01.jpg');}
+</style>
+
+<div class="gallery-container">
+  <div class="slider-container">
+    <h1>Tracks</h1>
+    <ul class="bxslider tracks-gallery">
+      <li class="g1 cover"></li>
+      <li class="g2 cover"></li>
+      <li class="g3 cover"></li>
+      <li class="g4 cover"></li>
+      <li class="g5 cover"></li>
+      <li class="g6 cover"></li>
+      <li class="g7 cover"></li>
+    </ul>
+  </div>
+  <div id="bx-pager">
+    <a data-slide-index="0" href="#0"><img src="../../assets/images/gthumb-london-mill-01.jpg" /></a>
+    <a data-slide-index="1" href="#0"><img src="../../assets/images/gthumb-london-mill-02.jpg" /></a>
+    <a data-slide-index="2" href="#0"><img src="../../assets/images/gthumb-london-mill-03.jpg" /></a>
+    <a data-slide-index="3" href="#0"><img src="../../assets/images/gthumb-london-mill-04.jpg" /></a>
+    <a data-slide-index="4" href="#0"><img src="../../assets/images/gthumb-hemyock-01.jpg" /></a>
+    <a data-slide-index="5" href="#0"><img src="../../assets/images/gthumb-hemyock-02.jpg" /></a>
+    <a data-slide-index="6" href="#0"><img src="../../assets/images/gthumb-cycle-show-01.jpg" /></a>
+  </div>
+  <script>
+    (function($){
+      // BX Slider
+      $(".bxslider").bxSlider({
+        pagerCustom: '#bx-pager',
+        startSlide: 0
+      });
+    })(jQuery);
+  </script>
+</div>

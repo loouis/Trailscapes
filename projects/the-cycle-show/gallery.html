@@ -1,0 +1,33 @@
+<!-- Styles -->
+<style>
+/* Smallest screen */
+.cycle-show-gallery li{}
+.cycle-show-gallery li.g1{background: url('../../assets/images/gfull-cycle-show-01.jpg');}
+.cycle-show-gallery li.g2{background: url('../../assets/images/gfull-cycle-show-02.jpg');}
+.cycle-show-gallery li.g3{background: url('../../assets/images/gfull-cycle-show-03.jpg');}
+</style>
+
+<div class="gallery-container">
+  <div class="slider-container">
+    <h1>The Cycle Show</h1>
+    <ul class="bxslider cycle-show-gallery">
+      <li class="g1 cover"></li>
+      <li class="g2 cover"></li>
+      <li class="g3 cover"></li>
+    </ul>
+  </div>
+  <div id="bx-pager">
+    <a data-slide-index="0" href="#0"><img src="../../assets/images/gthumb-cycle-show-01.jpg" /></a>
+    <a data-slide-index="1" href="#0"><img src="../../assets/images/gthumb-cycle-show-02.jpg" /></a>
+    <a data-slide-index="2" href="#0"><img src="../../assets/images/gthumb-cycle-show-03.jpg" /></a>
+  </div>
+  <script>
+    (function($){
+      // BX Slider
+      $(".bxslider").bxSlider({
+        pagerCustom: '#bx-pager',
+        startSlide: 0
+      });
+    })(jQuery);
+  </script>
+</div>

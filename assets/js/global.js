@@ -2,7 +2,8 @@
 
   var $hamburgerBtn = $('.hamburger-btn'),
       $mainHeader = $('.main-header'),
-      $body = $('body');
+      $body = $('body'),
+      $bxPager = $('#bx-pager a');
 
 
   var closeNav = function(){
@@ -23,30 +24,49 @@
 	  }
 	});
 
-  // // BX Slider
-  // $(".home-slider").bxSlider({
-  //   pagerCustom: '.bx-home-pager',
-  // });
+  // BX Slider
+  $(".home-slider").bxSlider({
+    pagerCustom: '.bx-home-pager',
+    controls: false
+  });
 
-  // Fancybox
-  // $(".fancybox-thumb").fancybox({
-	// 	prevEffect	: 'none',
-	// 	nextEffect	: 'none',
-	// 	helpers	: {
-	// 		title	: {
-	// 			type: 'outside'
-	// 		},
-	// 		thumbs	: {
-	// 			width	: 100,
-	// 			height	: 100
-	// 		}
-	// 	}
-	// });
+  // Magnific Popup
+  var win = $(window),
+      w,
+      currRs;
 
-  // $('.test').click(function(e) {
-  //   e.preventDefault();
-  //   $(".fancybox-thumb").trigger("click");
-  // });
+
+    $('.openBoxButton').magnificPopup({
+      type: 'ajax',
+      closeOnBgClick: false,
+      callbacks: {
+        close: function() {
+          // destroy the slider to avoid memory leaks
+          // if(this.content) {
+          //   this.content.find('.royalSlider').data('royalSlider').destroy();
+          // }
+
+          // if(this.content) {
+          //   this.content.find('.bxslider').destroySlider();
+          // }
+
+          // var slider = $('.bxslider').bxSlider();
+          // slider = $('.bxslider').bxSlider();
+          // slider.destroySlider();
+
+          // slider.destroySlider();
+
+        }
+      }
+      // closeOnBgClick: false;
+    });
+
+  $bxPager.on('click', function(e){
+    e.preventDefault();
+  })
+
+
+
 
 
 })(jQuery);

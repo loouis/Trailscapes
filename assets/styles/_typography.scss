@@ -16,11 +16,15 @@ h1, h2, h3, h4, h5{
 h1{
   font-size: em(42px);
   color:$brand-brown;
-  line-height: 1.3em;
+  line-height: 0.9em;
 }
 
 h2{
   font-size: em(36px);
+}
+
+h4{
+  
 }
 
 p{
@@ -31,11 +35,10 @@ p{
 
 @include screen(medium){
   h1{
-    font-size: em(36px);
+    font-size: em(70px);
     color:$brand-brown;
-    line-height: 1.4em;
   }
   h2{
-    font-size: em(70px);
+    font-size: em(66px);
   }
 }

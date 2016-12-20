@@ -7,8 +7,18 @@
 		"uuidString": "5BD6A90C-B73F-48C5-834F-CE2CBA8B1AAF"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
+	"\/assets\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/fonts\/329F8B_0_0.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -35,11 +45,11 @@
 		},
 	"\/assets\/images\/about-right-01.jpg": {
 		"ft": 16384,
-		"iS": 234574,
+		"iS": 194205,
 		"oA": 0,
 		"oAP": "\/assets\/images\/about-right-01.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/bx_loader.gif": {
 		"ft": 4194304,
@@ -51,9 +61,377 @@
 		},
 	"\/assets\/images\/controls.png": {
 		"ft": 32768,
-		"iS": 2806,
+		"iS": 2007,
 		"oA": 0,
 		"oAP": "\/assets\/images\/controls.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-cycle-show-01.jpg": {
+		"ft": 16384,
+		"iS": 311412,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-cycle-show-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-cycle-show-02.jpg": {
+		"ft": 16384,
+		"iS": 309289,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-cycle-show-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-cycle-show-03.jpg": {
+		"ft": 16384,
+		"iS": 264820,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-cycle-show-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-hemyock-01.jpg": {
+		"ft": 16384,
+		"iS": 290261,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-hemyock-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-hemyock-02.jpg": {
+		"ft": 16384,
+		"iS": 252115,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-hemyock-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-hemyock-03.jpg": {
+		"ft": 16384,
+		"iS": 367584,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-hemyock-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-hemyock-04.jpg": {
+		"ft": 16384,
+		"iS": 257980,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-hemyock-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-london-mill-01.jpg": {
+		"ft": 16384,
+		"iS": 281029,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-london-mill-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-london-mill-02.jpg": {
+		"ft": 16384,
+		"iS": 293789,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-london-mill-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-london-mill-03.jpg": {
+		"ft": 16384,
+		"iS": 220613,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-london-mill-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-london-mill-04.jpg": {
+		"ft": 16384,
+		"iS": 222548,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-london-mill-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-nass-01.jpg": {
+		"ft": 16384,
+		"iS": 284707,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-nass-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-nass-02.jpg": {
+		"ft": 16384,
+		"iS": 187175,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-nass-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-eod-01.jpg": {
+		"ft": 16384,
+		"iS": 307286,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-eod-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-eod-02.jpg": {
+		"ft": 16384,
+		"iS": 320128,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-eod-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-eod-03.jpg": {
+		"ft": 16384,
+		"iS": 267528,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-eod-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-eod-04.jpg": {
+		"ft": 16384,
+		"iS": 316832,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-eod-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-masters-01.jpg": {
+		"ft": 16384,
+		"iS": 231049,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-masters-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-masters-02.jpg": {
+		"ft": 16384,
+		"iS": 262492,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-masters-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-masters-03.jpg": {
+		"ft": 16384,
+		"iS": 292791,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-masters-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-red-bull-masters-04.jpg": {
+		"ft": 16384,
+		"iS": 317381,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-red-bull-masters-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-woods-01.jpg": {
+		"ft": 16384,
+		"iS": 485003,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-woods-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gfull-woods-02.jpg": {
+		"ft": 16384,
+		"iS": 492746,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gfull-woods-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-cycle-show-01.jpg": {
+		"ft": 16384,
+		"iS": 50392,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-cycle-show-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-cycle-show-02.jpg": {
+		"ft": 16384,
+		"iS": 46184,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-cycle-show-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-cycle-show-03.jpg": {
+		"ft": 16384,
+		"iS": 44972,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-cycle-show-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-hemyock-01.jpg": {
+		"ft": 16384,
+		"iS": 51517,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-hemyock-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-hemyock-02.jpg": {
+		"ft": 16384,
+		"iS": 41696,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-hemyock-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-hemyock-03.jpg": {
+		"ft": 16384,
+		"iS": 45525,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-hemyock-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-hemyock-04.jpg": {
+		"ft": 16384,
+		"iS": 44293,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-hemyock-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-london-mill-01.jpg": {
+		"ft": 16384,
+		"iS": 38807,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-london-mill-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-london-mill-02.jpg": {
+		"ft": 16384,
+		"iS": 42096,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-london-mill-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-london-mill-03.jpg": {
+		"ft": 16384,
+		"iS": 40583,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-london-mill-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-london-mill-04.jpg": {
+		"ft": 16384,
+		"iS": 34221,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-london-mill-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-nass-01.jpg": {
+		"ft": 16384,
+		"iS": 34829,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-nass-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-nass-02.jpg": {
+		"ft": 16384,
+		"iS": 37771,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-nass-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-eod-01.jpg": {
+		"ft": 16384,
+		"iS": 35879,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-eod-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-eod-02.jpg": {
+		"ft": 16384,
+		"iS": 53798,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-eod-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-eod-03.jpg": {
+		"ft": 16384,
+		"iS": 41426,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-eod-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-eod-04.jpg": {
+		"ft": 16384,
+		"iS": 43549,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-eod-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-masters-01.jpg": {
+		"ft": 16384,
+		"iS": 40419,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-masters-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-masters-02.jpg": {
+		"ft": 16384,
+		"iS": 35343,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-masters-02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-masters-03.jpg": {
+		"ft": 16384,
+		"iS": 44947,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-masters-03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-red-bull-masters-04.jpg": {
+		"ft": 16384,
+		"iS": 43275,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-red-bull-masters-04.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-woods-01.jpg": {
+		"ft": 16384,
+		"iS": 46163,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-woods-01.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/gthumb-woods-02.jpg": {
+		"ft": 16384,
+		"iS": 53572,
+		"oA": 0,
+		"oAP": "\/assets\/images\/gthumb-woods-02.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -99,7 +477,7 @@
 		},
 	"\/assets\/images\/nav-about-lrg.jpg": {
 		"ft": 16384,
-		"iS": 1164850,
+		"iS": 933355,
 		"oA": 0,
 		"oAP": "\/assets\/images\/nav-about-lrg.jpg",
 		"oF": 0,
@@ -107,7 +485,7 @@
 		},
 	"\/assets\/images\/nav-contact-lrg.jpg": {
 		"ft": 16384,
-		"iS": 1140650,
+		"iS": 985507,
 		"oA": 0,
 		"oAP": "\/assets\/images\/nav-contact-lrg.jpg",
 		"oF": 0,
@@ -115,7 +493,7 @@
 		},
 	"\/assets\/images\/nav-projects-lrg.jpg": {
 		"ft": 16384,
-		"iS": 1773660,
+		"iS": 1554334,
 		"oA": 0,
 		"oAP": "\/assets\/images\/nav-projects-lrg.jpg",
 		"oF": 0,
@@ -123,15 +501,175 @@
 		},
 	"\/assets\/images\/nav-services-lrg.jpg": {
 		"ft": 16384,
-		"iS": 1882210,
+		"iS": 1882211,
 		"oA": 0,
 		"oAP": "\/assets\/images\/nav-services-lrg.jpg",
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/prj-cycle-show-preview.jpg": {
+		"ft": 16384,
+		"iS": 206300,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prj-cycle-show-preview.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prj-eastbourne-preview.jpg": {
+		"ft": 16384,
+		"iS": 200092,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prj-eastbourne-preview.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/prj-hemyock-preview.jpg": {
+		"ft": 16384,
+		"iS": 224893,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prj-hemyock-preview.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prj-london-mill-preview.jpg": {
+		"ft": 16384,
+		"iS": 201589,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prj-london-mill-preview.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/prj-nass-preview.jpg": {
+		"ft": 16384,
+		"iS": 127552,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prj-nass-preview.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prj-red-bull-eod-preview.jpg": {
+		"ft": 16384,
+		"iS": 217070,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prj-red-bull-eod-preview.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/prj-red-bull-masters-preview.jpg": {
+		"ft": 16384,
+		"iS": 113463,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prj-red-bull-masters-preview.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-cycle-show-bg.jpg": {
+		"ft": 16384,
+		"iS": 248274,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-cycle-show-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-cycle-show-featured.jpg": {
+		"ft": 16384,
+		"iS": 240511,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-cycle-show-featured.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-eastbourne-bg.jpg": {
+		"ft": 16384,
+		"iS": 153393,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-eastbourne-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-eastbourne-featured.jpg": {
+		"ft": 16384,
+		"iS": 200092,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-eastbourne-featured.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-hemyock-bg.jpg": {
+		"ft": 16384,
+		"iS": 249039,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-hemyock-bg.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/prjs-hemyock-featured.jpg": {
+		"ft": 16384,
+		"iS": 249039,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-hemyock-featured.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/images\/prjs-london-mill-featured.jpg": {
+		"ft": 16384,
+		"iS": 201589,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-london-mill-featured.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-london-mill-pager.png": {
+		"ft": 32768,
+		"iS": 195141,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-london-mill-pager.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-nass-bg.jpg": {
+		"ft": 16384,
+		"iS": 214015,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-nass-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-nass-featured.jpg": {
+		"ft": 16384,
+		"iS": 185394,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-nass-featured.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-red-bull-eod-bg.jpg": {
+		"ft": 16384,
+		"iS": 149727,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-red-bull-eod-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-red-bull-masters-bg.jpg": {
+		"ft": 16384,
+		"iS": 231766,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-red-bull-masters-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/prjs-red-bull-masters-featured.jpg": {
+		"ft": 16384,
+		"iS": 202062,
+		"oA": 0,
+		"oAP": "\/assets\/images\/prjs-red-bull-masters-featured.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/rospa-logo.png": {
 		"ft": 32768,
-		"iS": 25057,
+		"iS": 15125,
 		"oA": 0,
 		"oAP": "\/assets\/images\/rospa-logo.png",
 		"oF": 0,
@@ -139,7 +677,7 @@
 		},
 	"\/assets\/images\/services-track-large-01.jpg": {
 		"ft": 16384,
-		"iS": 21626,
+		"iS": 19680,
 		"oA": 0,
 		"oAP": "\/assets\/images\/services-track-large-01.jpg",
 		"oF": 0,
@@ -147,7 +685,7 @@
 		},
 	"\/assets\/images\/services-track-thumb-01.jpg": {
 		"ft": 16384,
-		"iS": 6476,
+		"iS": 5458,
 		"oA": 0,
 		"oAP": "\/assets\/images\/services-track-thumb-01.jpg",
 		"oF": 0,
@@ -155,17 +693,25 @@
 		},
 	"\/assets\/images\/services-trail-featured.jpg": {
 		"ft": 16384,
-		"iS": 480074,
+		"iS": 341108,
 		"oA": 0,
 		"oAP": "\/assets\/images\/services-trail-featured.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/images\/servies-trailbuilds-bg.jpg": {
 		"ft": 16384,
-		"iS": 664791,
+		"iS": 554923,
 		"oA": 0,
 		"oAP": "\/assets\/images\/servies-trailbuilds-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/images\/trails-build-pager.png": {
+		"ft": 32768,
+		"iS": 169445,
+		"oA": 0,
+		"oAP": "\/assets\/images\/trails-build-pager.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -174,6 +720,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/global-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/libs\/bx-slider-click.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/libs\/min\/bx-slider-click-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -199,8 +754,17 @@
 	"\/assets\/js\/libs\/magnific-popup.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/libs\/min\/magnific-popup-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/libs\/min\/bx-slider-click-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/libs\/min\/min\/bx-slider-click-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -253,7 +817,7 @@
 	"\/assets\/js\/min\/global-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/global-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -372,6 +936,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/styles\/css\/magnific-popup-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/styles\/css\/magnific-popup-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/styles\/css\/magnific-popup.css": {
 		"aP": 0,
 		"bl": 0,
@@ -460,6 +1034,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/styles\/modules\/_image-link-item.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/css\/_image-link-item.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/styles\/modules\/_magnific-popup.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -486,6 +1073,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/styles\/modules\/_projects.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/css\/_projects.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/styles\/modules\/_services.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -500,12 +1100,12 @@
 		"uL": 1
 		},
 	"\/assets\/styles\/style.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
@@ -532,9 +1132,33 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/template-parts\/animate-load-script.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/template-parts\/animate-load-script.html",
+		"oF": 0
+		},
+	"\/assets\/template-parts\/border.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/template-parts\/border.html",
+		"oF": 0
+		},
+	"\/assets\/template-parts\/header.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/template-parts\/header.html",
+		"oF": 0
+		},
+	"\/assets\/template-parts\/typekit.html": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/assets\/template-parts\/typekit.html",
+		"oF": 0
+		},
 	"\/blank.gif": {
 		"ft": 4194304,
-		"iS": 43,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/blank.gif",
 		"oF": 0,
@@ -542,7 +1166,7 @@
 		},
 	"\/fancybox_loading.gif": {
 		"ft": 4194304,
-		"iS": 6567,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/fancybox_loading.gif",
 		"oF": 0,
@@ -582,6 +1206,12 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
@@ -592,59 +1222,257 @@
 		"oAP": "\/pages\/about\/index.html",
 		"oF": 0
 		},
+	"\/pages\/about\/index.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/pages\/about\/index.html",
+		"oF": 0
+		},
 	"\/pages\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pages\/contact\/index.html",
 		"oF": 0
 		},
+	"\/pages\/contact\/index.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/pages\/contact\/index.html",
+		"oF": 0
+		},
 	"\/projects\/eastbourne-primary-school-pump-track-build\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/eastbourne-primary-school-pump-track-build\/index.html",
+		"oF": 0
+		},
+	"\/projects\/eastbourne-primary-school-pump-track-build\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/projects\/eastbourne-primary-school-pump-track-build\/index.html",
 		"oF": 0
 		},
+	"\/projects\/hemyock-village-pump-track-build\/gallery-images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/projects\/css\/gallery-images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/projects\/hemyock-village-pump-track-build\/gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/hemyock-village-pump-track-build\/gallery.html",
+		"oF": 0
+		},
+	"\/projects\/hemyock-village-pump-track-build\/gallery.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/projects\/hemyock-village-pump-track-build\/gallery.html",
+		"oF": 0
+		},
 	"\/projects\/hemyock-village-pump-track-build\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/hemyock-village-pump-track-build\/index.html",
+		"oF": 0
+		},
+	"\/projects\/hemyock-village-pump-track-build\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/projects\/hemyock-village-pump-track-build\/index.html",
 		"oF": 0
 		},
 	"\/projects\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/index.html",
+		"oF": 0
+		},
+	"\/projects\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/projects\/index.html",
 		"oF": 0
 		},
+	"\/projects\/NASS-world-championship-dirt-course\/gallery-images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/projects\/css\/gallery-images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/projects\/NASS-world-championship-dirt-course\/gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/NASS-world-championship-dirt-course\/gallery.html",
+		"oF": 0
+		},
+	"\/projects\/NASS-world-championship-dirt-course\/gallery.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/projects\/NASS-world-championship-dirt-course\/gallery.html",
+		"oF": 0
+		},
 	"\/projects\/NASS-world-championship-dirt-course\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/NASS-world-championship-dirt-course\/index.html",
+		"oF": 0
+		},
+	"\/projects\/NASS-world-championship-dirt-course\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/projects\/NASS-world-championship-dirt-course\/index.html",
 		"oF": 0
 		},
+	"\/projects\/red-bull-quarter-master\/gallery-images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/projects\/css\/gallery-images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/projects\/red-bull-quarter-master\/gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/red-bull-quarter-master\/gallery.html",
+		"oF": 0
+		},
+	"\/projects\/red-bull-quarter-master\/gallery.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/projects\/red-bull-quarter-master\/gallery.html",
+		"oF": 0
+		},
 	"\/projects\/red-bull-quarter-master\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/red-bull-quarter-master\/index.html",
+		"oF": 0
+		},
+	"\/projects\/red-bull-quarter-master\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/projects\/red-bull-quarter-master\/index.html",
 		"oF": 0
 		},
+	"\/projects\/the-cycle-show\/gallery-images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/projects\/css\/gallery-images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/projects\/the-cycle-show\/gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/the-cycle-show\/gallery.html",
+		"oF": 0
+		},
+	"\/projects\/the-cycle-show\/gallery.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/projects\/the-cycle-show\/gallery.html",
+		"oF": 0
+		},
 	"\/projects\/the-cycle-show\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/projects\/the-cycle-show\/index.html",
+		"oF": 0
+		},
+	"\/projects\/the-cycle-show\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/projects\/the-cycle-show\/index.html",
 		"oF": 0
 		},
 	"\/services\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services\/index.html",
+		"oF": 0
+		},
+	"\/services\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/services\/index.html",
 		"oF": 0
 		},
+	"\/services\/tracks\/gallery-images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/services\/css\/gallery-images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/services\/tracks\/gallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services\/tracks\/gallery.html",
+		"oF": 0
+		},
+	"\/services\/tracks\/gallery.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/services\/tracks\/gallery.html",
+		"oF": 0
+		},
 	"\/services\/tracks\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services\/tracks\/index.html",
+		"oF": 0
+		},
+	"\/services\/tracks\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/services\/tracks\/index.html",
 		"oF": 0
+		},
+	"\/services\/trail-builds\/gallery-images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/services\/trail-builds\/gallery-images.css",
+		"oF": 3,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/services\/trail-builds\/gallery.html": {
 		"ft": 8192,
@@ -652,8 +1480,20 @@
 		"oAP": "\/services\/trail-builds\/gallery.html",
 		"oF": 0
 		},
+	"\/services\/trail-builds\/gallery.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/services\/trail-builds\/gallery.html",
+		"oF": 0
+		},
 	"\/services\/trail-builds\/index.html": {
 		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services\/trail-builds\/index.html",
+		"oF": 0
+		},
+	"\/services\/trail-builds\/index.kit": {
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/services\/trail-builds\/index.html",
 		"oF": 0
@@ -663,7 +1503,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 0
@@ -681,8 +1521,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 503275111,
-	"displayValue": "trailscapes",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Trailscapes",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-krieger"
 	},
 "projectSettings": {
@@ -1127,6 +1967,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -1290,6 +2134,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -1655,6 +2503,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1886,6 +2738,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2719,6 +3575,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

@@ -1,0 +1,24 @@
+<!-- Styles -->
+<!-- @import "gallery-images.scss" -->
+<div class="gallery-container">
+  <div class="slider-container">
+    <h1>NASS World Championship</h1>
+    <ul class="bxslider nass-gallery">
+      <li class="g1 cover"></li>
+      <li class="g2 cover"></li>
+    </ul>
+  </div>
+  <div id="bx-pager">
+    <a data-slide-index="0" href="#0"><img src="../../assets/images/gthumb-nass-01.jpg" /></a>
+    <a data-slide-index="1" href="#0"><img src="../../assets/images/gthumb-nass-02.jpg" /></a>
+  </div>
+  <script>
+    (function($){
+      // BX Slider
+      $(".bxslider").bxSlider({
+        pagerCustom: '#bx-pager',
+        startSlide: 0
+      });
+    })(jQuery);
+  </script>
+</div>

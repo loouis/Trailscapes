@@ -1,0 +1,320 @@
+// All projects page
+.image-block-links{
+
+  &--full{
+    .all-projects__project{
+      width:100% !important;
+    }
+  }
+
+  &__link{
+    position: relative;
+    display: flex;
+    float:left;
+    width:100%;
+    align-items: center;
+    overflow:hidden;
+    cursor: pointer;
+
+    // BX slider
+    &.active{
+      .image{
+        filter: grayscale(0);
+        transform: scale(1.05) !important;
+        transition: transform 6s ease-in-out, filter .1s !important;
+      }
+      &:after{
+        opacity:0;
+      }
+      hgroup{
+        .mask{
+          h2{
+            &:after{
+              transform: translateX(-2%);
+            }
+          }
+        }
+      }
+    }
+
+    h2{
+      display:table;
+
+      &:nth-child(1){
+        margin-right:12px;
+      }
+    }
+
+    .image{
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height: 100%;
+      filter: grayscale(98%);
+      transform: scale(1.02);
+      opacity:0;
+      background-position: center right !important;
+      background-size:cover;
+
+      transition: all .5s ease-in-out;
+    }
+
+    &:after{
+      content:"";
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background:$brand-green;
+      opacity:0.5;
+      z-index: 0;
+
+      transition: opacity 1s ease-in-out;
+    }
+
+    hgroup{
+      width:100%;
+      text-align:center;
+      position: relative;
+      z-index: 1;
+      color:white;
+      z-index: 1;
+
+      .mask{
+        // overflow:hidden;
+        // padding-bottom:5px;
+
+        h2{
+          // display: inline-block;
+          position: relative;
+          transform: translateY(105%);
+
+          &:after{
+            content:"";
+            position: absolute;
+            width:100%;
+            height:6px;
+            background:white;
+            bottom:-4px;
+            left:0;
+
+            transform: translateX(-100%);
+            transition: transform .3s ease-in-out;
+
+          }
+        }
+
+        h4{
+          transform: translateY(150%);
+        }
+      }
+    }
+  }
+
+  @include screen(medium){
+
+    .image-block-links__link{
+      width:50%;
+      height:50vh;
+      padding: 5% 5%;
+      background-size:contain;
+
+      hgroup{
+        text-align: left;
+
+        h2{
+          clear:both;
+        }
+      }
+
+
+      // Hover state
+      &:hover{
+        &:after{
+          opacity:0;
+        }
+
+        .image{
+          filter: grayscale(0);
+          opacity:1;
+          filter: none;
+          transform: scale(1.05) !important;
+
+          transition: transform 6s ease-in-out, filter .1s !important;
+        }
+
+        h2:after{
+          transform: translateX(-2%) !important;
+        }
+      }
+    }
+  }
+
+  &--full{
+    .all-projects__project{
+      padding: 5% 10%;
+    }
+  }
+}
+
+
+// Animate body
+
+body.animate{
+
+  main.outter-container div.image-block-links__link, main.outter-container a.image-block-links__link{
+    .image{
+      opacity: 1 !important;
+      transform:scale(1) !important;
+    }
+
+    hgroup{
+      .mask{
+        h4, h2{
+          transform: translateY(0%) !important;
+        }
+      }
+    }
+
+    &:nth-child(1){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out;
+      }
+
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out .1s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out .5s;
+          }
+        }
+      }
+    }
+    &:nth-child(2){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .2s;
+      }
+
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out .6s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out .8s;
+          }
+        }
+      }
+    }
+    &:nth-child(3){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .4s;
+      }
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out .9s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out 1.1s;
+          }
+        }
+      }
+    }
+    &:nth-child(4){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .6s;
+      }
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out 1.2s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out 1.4s;
+          }
+        }
+      }
+    }
+    &:nth-child(5){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .8s;
+      }
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out 1.5s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out 1.7s;
+          }
+        }
+      }
+    }
+    &:nth-child(6){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .10s;
+      }
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out 1.8s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out 2s;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+//---------------------------------------------------- Preview project images
+
+.all-projects__project--eastbourne .image{
+  background-image:url(assets/images/prj-eastbourne-preview.jpg) !important;
+}
+.all-projects__project--hemyock .image{
+  background-image:url(assets/images/prj-hemyock-preview.jpg) !important;
+}
+.all-projects__project--red-bull-master .image{
+  background-image:url(assets/images/prj-red-bull-masters-preview.jpg) !important;
+}
+.all-projects__project--nass .image{
+  background-image:url(assets/images/prj-nass-preview.jpg) !important;
+}
+.all-projects__project--cycle-show .image{
+  background-image:url(assets/images/prj-cycle-show-preview.jpg) !important;
+}
+
+//---------------------------------------------------- Preview normal page images
+
+.image-block-links__link--contact .image{
+  background-image:url(assets/images/nav-contact-lrg.jpg);
+}
+.image-block-links__link--projects .image{
+  background-image:url(assets/images/nav-projects-lrg.jpg);
+}
+.image-block-links__link--about .image{
+  background-image:url(assets/images/nav-about-lrg.jpg);
+}
+.image-block-links__link--services .image{
+  background-image:url(assets/images/nav-services-lrg.jpg);
+}

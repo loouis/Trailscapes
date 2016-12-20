@@ -1,47 +1,47 @@
-<!-- contents of external ajax file -->
+<!-- Styles -->
+<style>
+/* Smallest screen */
+.trail-build-gallery li.g1{background: url('../../assets/images/gfull-red-bull-eod-01.jpg');}
+.trail-build-gallery li.g2{background: url('../../assets/images/gfull-red-bull-eod-02.jpg');}
+.trail-build-gallery li.g3{background: url('../../assets/images/gfull-red-bull-eod-03.jpg');}
+.trail-build-gallery li.g4{background: url('../../assets/images/gfull-red-bull-eod-04.jpg');}
+.trail-build-gallery li.g5{background: url('../../assets/images/gfull-woods-01.jpg');}
+.trail-build-gallery li.g6{background: url('../../assets/images/gfull-woods-02.jpg');}
+.trail-build-gallery li.g7{background: url('../../assets/images/gfull-red-bull-masters-01.jpg');}
+.trail-build-gallery li.g8{background: url('../../assets/images/gfull-red-bull-masters-02.jpg');}
+</style>
 
-  <div class="gallery-container">
-    
-    <div class="slider-container">
-      <ul class="bxslider">
-        <li><img src="../../assets/images/services-track-large-01.jpg" /></li>
-        <li><img src="../../assets/images/services-track-large-01.jpg" /></li>
-        <li><img src="../../assets/images/services-track-large-01.jpg" /></li>
-      </ul>
-    </div>
-
-    <div id="bx-pager">
-      <a data-slide-index="0" href=""><img src="../../assets/images/services-track-thumb-01.jpg" /></a>
-      <a data-slide-index="1" href=""><img src="../../assets/images/services-track-thumb-01.jpg" /></a>
-      <a data-slide-index="2" href=""><img src="../../assets/images/services-track-thumb-01.jpg" /></a>
-    </div>
-
-    <script>
-
-      slider = $('.bxslider').bxSlider({pagerCustom: '#bx-pager'});
-
-      (function($){
-
-        // BX Slider
-
-        var sliderOptions = {pagerCustom: '#bx-pager'};
-
-
-        //
-
-          // $('.distroy').click(function(){
-          //   console.log("distroying");
-          //   alert("hello");
-          //   slider.destroySlider();
-          // });
-
-          // slider.reloadSlider();
-
-        // $(".bxslider").bxSlider({
-        //   pagerCustom: '#bx-pager',
-        // });
-
-      })(jQuery);
-    </script>
-
+<div class="gallery-container">
+  <div class="slider-container">
+    <h1>Trail Build</h1>
+    <ul class="bxslider trail-build-gallery">
+      <li class="g1 cover"></li>
+      <li class="g2 cover"></li>
+      <li class="g3 cover"></li>
+      <li class="g4 cover"></li>
+      <li class="g5 cover"></li>
+      <li class="g6 cover"></li>
+      <li class="g7 cover"></li>
+      <li class="g8 cover"></li>
+    </ul>
+  </div>
+  <div id="bx-pager">
+    <a data-slide-index="0" href="#0"><img src="../../assets/images/gthumb-red-bull-eod-01.jpg" /></a>
+    <a data-slide-index="1" href="#0"><img src="../../assets/images/gthumb-red-bull-eod-02.jpg" /></a>
+    <a data-slide-index="2" href="#0"><img src="../../assets/images/gthumb-red-bull-eod-03.jpg" /></a>
+    <a data-slide-index="3" href="#0"><img src="../../assets/images/gthumb-red-bull-eod-04.jpg" /></a>
+    <a data-slide-index="4" href="#0"><img src="../../assets/images/gthumb-woods-01.jpg" /></a>
+    <a data-slide-index="5" href="#0"><img src="../../assets/images/gthumb-woods-02.jpg" /></a>
+    <a data-slide-index="6" href="#0"><img src="../../assets/images/gthumb-red-bull-masters-01.jpg" /></a>
+    <a data-slide-index="7" href="#0"><img src="../../assets/images/gthumb-red-bull-masters-02.jpg" /></a>
+  </div>
+  <script>
+    (function($){
+      // BX Slider
+      $(".bxslider").bxSlider({
+        pagerCustom: '#bx-pager',
+        startSlide: 0
+      });
+    })(jQuery);
+  </script>
 </div>

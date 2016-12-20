@@ -1,0 +1,36 @@
+<!-- Styles -->
+<style>
+/* Smallest screen */
+.red-bull-master-gallery li.g1{background: url('../../assets/images/gfull-red-bull-masters-01.jpg');}
+.red-bull-master-gallery li.g2{background: url('../../assets/images/gfull-red-bull-masters-02.jpg');}
+.red-bull-master-gallery li.g3{background: url('../../assets/images/gfull-red-bull-masters-03.jpg');}
+.red-bull-master-gallery li.g4{background: url('../../assets/images/gfull-red-bull-masters-04.jpg');}
+
+</style>
+
+<div class="gallery-container">
+  <div class="slider-container">
+    <h1>Red Bull Quarter Master</h1>
+    <ul class="bxslider red-bull-master-gallery">
+      <li class="g1 cover"></li>
+      <li class="g2 cover"></li>
+      <li class="g3 cover"></li>
+      <li class="g4 cover"></li>
+    </ul>
+  </div>
+  <div id="bx-pager">
+    <a data-slide-index="0" href="#0"><img src="../../assets/images/gthumb-red-bull-masters-01.jpg" /></a>
+    <a data-slide-index="1" href="#0"><img src="../../assets/images/gthumb-red-bull-masters-02.jpg" /></a>
+    <a data-slide-index="2" href="#0"><img src="../../assets/images/gthumb-red-bull-masters-03.jpg" /></a>
+    <a data-slide-index="3" href="#0"><img src="../../assets/images/gthumb-red-bull-masters-04.jpg" /></a>
+  </div>
+  <script>
+    (function($){
+      // BX Slider
+      $(".bxslider").bxSlider({
+        pagerCustom: '#bx-pager',
+        startSlide: 0
+      });
+    })(jQuery);
+  </script>
+</div>
