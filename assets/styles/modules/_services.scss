@@ -1,58 +1,73 @@
+body.services{
+  .gallery{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @include screen(medium){
+    .gallery{
+      background: none !important;
+    }
+  }
+  .related{
+    margin-top:-20px;
+  }
+}
+
 body.services-trailbuilds{
 
-  .bg-image{
-    position:fixed;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
-    z-index:-1;
-    background-size: cover;
+  .gallery{
     background-image: url(assets/images/servies-trailbuilds-bg.jpg);
+  }
+
+  @include screen(medium){
+    .bg-image{
+      position:fixed;
+      left:0;
+      right:0;
+      bottom:0;
+      width:100%;
+      height:100%;
+      z-index:-1;
+      background-size: cover;
+      background-image: url(assets/images/servies-trailbuilds-bg.jpg);
+    }
   }
 }
 
 body.services-tracks{
 
-  .bg-image{
-    position:fixed;
-    left:0;
-    right:0;
-    bottom:0;
-    width:100%;
-    height:100%;
-    z-index:-1;
+  .gallery{
     background-size: cover;
     background-image: url(assets/images/prjs-hemyock-bg.jpg);
+    background-repeat: no-repeat;
+  }
+
+  @include screen(medium){
+    .bg-image{
+      position:fixed;
+      left:0;
+      right:0;
+      bottom:0;
+      width:100%;
+      height:100%;
+      z-index:-1;
+      background-size: cover;
+      background-image: url(assets/images/prjs-hemyock-bg.jpg);
+    }
   }
 }
 
+
 body.services{
+
   .website-body{
     position: relative;
     z-index: 1;
   }
 
-}
-
-body.lay-split-screen{
-  .split-screen--left{
-    position: fixed;
-    background: rgba(90, 81, 41, 0.5);
-    padding: 15% 15% 0 7.5%;
-  }
-}
-
-body.lay-split-screen{
   .split-screen--right{
-    float: right;
-    position: relative;
-    padding:0;
+    margin-top:80px;
   }
-}
-
-body.services{
 
   .split-screen--image{
     background-size: cover;
@@ -61,8 +76,8 @@ body.services{
     li{
       font-family: $h-font;
       color:white;
-      font-size:em(24px);
-      line-height: 1.2em;
+      font-size:em(18px);
+      line-height: 1.4em;
       letter-spacing: 0.03em;
     }
   }
@@ -70,51 +85,97 @@ body.services{
   .split-screen--right{
     padding:0;
   }
+
+  .split-screen--left{
+
+    .services-text{
+      h1, p{
+        color:$brand-brown;
+      }
+    }
+  }
+
+  @include screen(medium){
+    .split-screen--right{
+      height:100vh;
+      position:absolute;
+      right:0;
+
+      &:after{
+        content:"";
+        display:table;
+        clear:both;
+      }
+      margin-top:0;
+    }
+
+    .outter-container{
+      display: block;
+    }
+
+    .split-screen--image{
+      li{
+        font-size:em(24px);
+        line-height: 1.2em;
+      }
+    }
+
+    .split-screen--left{
+      display: flex;
+      padding-right:15%;
+      padding-left: 7.5%;
+      padding-top:0;
+      justify-content: center;
+      align-items: center;
+
+      .services-text{
+        h1, p{
+          color:white;
+        }
+      }
+    }
+  }
 }
 
 .services-list{
   position: relative;
+  color:white;
+  text-align: center;
+  padding: 15% 7.5%;
 
   h4{
-    color:white;
-    position:absolute;
-    transform:translateX(-80%) translateY(140%) rotate(-90deg);
-  }
-}
-
-.services-text{
-  h1, p{
-    color:white;
-  }
-}
-
-.gallery{
-  position: absolute;
-  top: 15%;
-  right: 0;
-  padding-top: 22%;
-  left: -20%;
-  height: 500px;
-
-  .featured-image{
-    width: 80%;
     position: relative;
-    // background: rgba($brand-green, .6);
-    box-shadow:0 0 12px rgba(0,0,0,.4);
+    margin-bottom: 40px;
+    font-size: em(22px);
 
-    &:focus{
-      outline:none;
-      box-shadow:none;
-    }
-
-    img{
-      display: block;
+    &:after{
+      content:"";
+      position:absolute;
+      width:20px;
+      height:4px;
+      background:$brand-brown;
+      left:50%;
+      right:50%;
+      margin-left:-30px;
+      bottom:-14px;
     }
   }
 
-  .gallery-fake-pager{
-    padding-top:20px;
-    position: absolute;
-    width:42%;
+  @include screen(medium){
+    padding:0;
+    text-align: left;
+
+    h4{
+      position:absolute;
+      transform:translateX(-70%) translateY(280%) rotate(-90deg);
+      margin-bottom:30px;
+
+      &:after{
+        // display: none;
+        top:8px;
+        left:0;
+        background:white;
+      }
+    }
   }
 }

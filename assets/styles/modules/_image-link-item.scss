@@ -15,33 +15,15 @@
     align-items: center;
     overflow:hidden;
     cursor: pointer;
-
-    // BX slider
-    &.active{
-      .image{
-        filter: grayscale(0);
-        transform: scale(1.05) !important;
-        transition: transform 6s ease-in-out, filter .1s !important;
-      }
-      &:after{
-        opacity:0;
-      }
-      hgroup{
-        .mask{
-          h2{
-            &:after{
-              transform: translateX(-2%);
-            }
-          }
-        }
-      }
-    }
+    height:240px;
 
     h2{
-      display:table;
+      // display:table;
+      display:inline-block;
+      // font-size:em(42px);
 
-      &:nth-child(1){
-        margin-right:12px;
+      &:nth-child(2), &:nth-child(3){
+        margin-left:12px;
       }
     }
 
@@ -75,6 +57,31 @@
     }
 
     hgroup{
+
+      h2{
+        clear:both;
+        text-align: left;
+        transform: translateY(105%);
+        overflow:hidden;
+        padding:3px 0px 8px 0px;
+
+        &:after{
+          content:"";
+          position: absolute;
+          width:100%;
+          height:6px;
+          background:white;
+          bottom:0px;
+          left:0;
+
+          transform: translateX(-100%);
+          transition: transform .3s ease-in-out;
+
+        }
+      }
+    }
+
+    hgroup{
       width:100%;
       text-align:center;
       position: relative;
@@ -83,27 +90,9 @@
       z-index: 1;
 
       .mask{
-        // overflow:hidden;
-        // padding-bottom:5px;
 
         h2{
-          // display: inline-block;
           position: relative;
-          transform: translateY(105%);
-
-          &:after{
-            content:"";
-            position: absolute;
-            width:100%;
-            height:6px;
-            background:white;
-            bottom:-4px;
-            left:0;
-
-            transform: translateX(-100%);
-            transition: transform .3s ease-in-out;
-
-          }
         }
 
         h4{
@@ -115,20 +104,36 @@
 
   @include screen(medium){
 
+    hgroup{
+      text-align: left;
+    }
+
     .image-block-links__link{
       width:50%;
       height:50vh;
       padding: 5% 5%;
       background-size:contain;
 
-      hgroup{
-        text-align: left;
-
-        h2{
-          clear:both;
+      // BX slider
+      &.active{
+        .image{
+          filter: grayscale(0);
+          transform: scale(1.05) !important;
+          transition: transform 6s ease-in-out, filter .1s !important;
+        }
+        &:after{
+          opacity:0;
+        }
+        hgroup{
+          .mask{
+            h2{
+              &:after{
+                transform: translateX(-2%);
+              }
+            }
+          }
         }
       }
-
 
       // Hover state
       &:hover{
@@ -181,7 +186,7 @@ body.animate{
     &:nth-child(1){
       .image{
         background-size:cover;
-        transition: all .5s ease-in-out;
+        transition: all .3s ease-in-out;
       }
 
       hgroup{
@@ -191,7 +196,7 @@ body.animate{
           }
 
           h4{
-            transition: transform .3s ease-in-out .5s;
+            transition: transform .3s ease-in-out .3s;
           }
         }
       }
@@ -199,9 +204,77 @@ body.animate{
     &:nth-child(2){
       .image{
         background-size:cover;
-        transition: all .5s ease-in-out .2s;
+        transition: all .3s ease-in-out .1s;
       }
 
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out .2s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out .4s;
+          }
+        }
+      }
+    }
+    &:nth-child(3){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .2s;
+      }
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out .3s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out .5s;
+          }
+        }
+      }
+    }
+    &:nth-child(4){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .3s;
+      }
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out .4s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out .6s;
+          }
+        }
+      }
+    }
+    &:nth-child(5){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .4s;
+      }
+      hgroup{
+        .mask{
+          h2{
+            transition: transform .3s ease-in-out .5s;
+          }
+
+          h4{
+            transition: transform .3s ease-in-out .7s;
+          }
+        }
+      }
+    }
+    &:nth-child(6){
+      .image{
+        background-size:cover;
+        transition: all .5s ease-in-out .5s;
+      }
       hgroup{
         .mask{
           h2{
@@ -210,74 +283,6 @@ body.animate{
 
           h4{
             transition: transform .3s ease-in-out .8s;
-          }
-        }
-      }
-    }
-    &:nth-child(3){
-      .image{
-        background-size:cover;
-        transition: all .5s ease-in-out .4s;
-      }
-      hgroup{
-        .mask{
-          h2{
-            transition: transform .3s ease-in-out .9s;
-          }
-
-          h4{
-            transition: transform .3s ease-in-out 1.1s;
-          }
-        }
-      }
-    }
-    &:nth-child(4){
-      .image{
-        background-size:cover;
-        transition: all .5s ease-in-out .6s;
-      }
-      hgroup{
-        .mask{
-          h2{
-            transition: transform .3s ease-in-out 1.2s;
-          }
-
-          h4{
-            transition: transform .3s ease-in-out 1.4s;
-          }
-        }
-      }
-    }
-    &:nth-child(5){
-      .image{
-        background-size:cover;
-        transition: all .5s ease-in-out .8s;
-      }
-      hgroup{
-        .mask{
-          h2{
-            transition: transform .3s ease-in-out 1.5s;
-          }
-
-          h4{
-            transition: transform .3s ease-in-out 1.7s;
-          }
-        }
-      }
-    }
-    &:nth-child(6){
-      .image{
-        background-size:cover;
-        transition: all .5s ease-in-out .10s;
-      }
-      hgroup{
-        .mask{
-          h2{
-            transition: transform .3s ease-in-out 1.8s;
-          }
-
-          h4{
-            transition: transform .3s ease-in-out 2s;
           }
         }
       }
@@ -302,6 +307,9 @@ body.animate{
 }
 .all-projects__project--cycle-show .image{
   background-image:url(assets/images/prj-cycle-show-preview.jpg) !important;
+}
+.all-projects__project--contact .image{
+  background-image:url(assets/images/prj-contact-preview.jpg) !important;
 }
 
 //---------------------------------------------------- Preview normal page images

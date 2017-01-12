@@ -24,17 +24,21 @@
 	  }
 	});
 
-  // BX Slider
-  $(".home-slider").bxSlider({
-    pagerCustom: '.bx-home-pager',
-    controls: false
-  });
+
+
+  // Skrollr init
+  if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+    // BX Slider
+    $(".home-slider").bxSlider({
+      pagerCustom: '.bx-home-pager',
+      controls: false
+    });
+  }
 
   // Magnific Popup
   var win = $(window),
       w,
       currRs;
-
 
     $('.openBoxButton').magnificPopup({
       type: 'ajax',
@@ -64,7 +68,6 @@
   $bxPager.on('click', function(e){
     e.preventDefault();
   })
-
 
 
 

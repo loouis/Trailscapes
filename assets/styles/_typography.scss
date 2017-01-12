@@ -20,11 +20,11 @@ h1{
 }
 
 h2{
-  font-size: em(36px);
+  font-size: em(40px);
 }
 
 h4{
-  
+
 }
 
 p{
@@ -35,10 +35,20 @@ p{
 
 @include screen(medium){
   h1{
-    font-size: em(70px);
+    font-size: em(56px);
     color:$brand-brown;
   }
   h2{
-    font-size: em(66px);
+    font-size: em(46px);
+  }
+}
+
+@include screen(large){
+  h1{
+    font-size: em(76px);
+    color:$brand-brown;
+  }
+  h2{
+    font-size: em(68px);
   }
 }

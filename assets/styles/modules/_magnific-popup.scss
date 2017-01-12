@@ -98,6 +98,7 @@
       color: #FFF; }
 
 .mfp-s-ready .mfp-preloader {
+  font-family: $h-font;
   display: none; }
 
 .mfp-s-error .mfp-content {
@@ -116,6 +117,15 @@ button.mfp-arrow {
   z-index: 1046;
   box-shadow: none;
   touch-action: manipulation; }
+
+button.mfp-close{
+  font-family: $h-font;
+  color:white !important;
+  width: 75px;
+  opacity: 1;
+  font-size:1.2em;
+  letter-spacing: 0.05em;
+}
 
 button::-moz-focus-inner {
   padding: 0;

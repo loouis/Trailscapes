@@ -9,6 +9,9 @@
 
 <div class="gallery-container">
   <div class="slider-container">
+
+    <button title="%title%" type="button" class="mfp-close">CLOSE</button>
+
     <h1>The Cycle Show</h1>
     <ul class="bxslider cycle-show-gallery">
       <li class="g1 cover"></li>
@@ -23,11 +26,27 @@
   </div>
   <script>
     (function($){
+
+      var mySlider = $('.bxslider').bxSlider(),
+          MySliderNextBtn = $(".gallery-slider-nav__btn--next");
+
       // BX Slider
-      $(".bxslider").bxSlider({
+      mySlider.bxSlider({
+        controls: false,
         pagerCustom: '#bx-pager',
-        startSlide: 0
+        startSlide: 0,
       });
+
+      $('.gallery-slider-nav__btn').click(function(event) {
+        event.preventDefault();
+
+        if( $(this).hasClass(MySliderNextBtn) ){
+          mySlider.goToNextSlide();
+        }else{
+          mySlider.goToPrevSlide();
+        }
+      });
+
     })(jQuery);
   </script>
 </div>

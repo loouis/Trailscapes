@@ -1,8 +1,16 @@
+body.pages--contact{
+  .split-screen--right{
+    background-image:url('assets/images/contact-bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .contact-links{
   margin-top:40px;
 
   .contact-link{
-    display:inline-block;
+    display:block;
     clear:both;
     overflow:hidden;
     margin-top:10px;
