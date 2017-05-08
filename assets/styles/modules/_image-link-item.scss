@@ -172,7 +172,7 @@ body.animate{
   main.outter-container div.image-block-links__link, main.outter-container a.image-block-links__link{
     .image{
       opacity: 1 !important;
-      transform:scale(1) !important;
+      transform:scale(1);
     }
 
     hgroup{

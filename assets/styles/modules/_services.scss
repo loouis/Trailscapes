@@ -65,9 +65,9 @@ body.services{
     z-index: 1;
   }
 
-  .split-screen--right{
-    margin-top:80px;
-  }
+  // .split-screen--right{
+  //   margin-top:80px;
+  // }
 
   .split-screen--image{
     background-size: cover;
@@ -140,8 +140,7 @@ body.services{
 .services-list{
   position: relative;
   color:white;
-  text-align: center;
-  padding: 15% 7.5%;
+  padding: 80px 7.5% 15% 7.5%;
 
   h4{
     position: relative;
@@ -154,9 +153,7 @@ body.services{
       width:20px;
       height:4px;
       background:$brand-brown;
-      left:50%;
-      right:50%;
-      margin-left:-30px;
+      left:0;
       bottom:-14px;
     }
   }
@@ -167,13 +164,13 @@ body.services{
 
     h4{
       position:absolute;
-      transform:translateX(-70%) translateY(280%) rotate(-90deg);
+      transform:translateX(-80%) translateY(138%) rotate(-90deg);
       margin-bottom:30px;
 
       &:after{
         // display: none;
         top:8px;
-        left:0;
+        left:-30px;
         background:white;
       }
     }

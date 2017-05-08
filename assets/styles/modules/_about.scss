@@ -13,7 +13,6 @@ body.pages{
     display: flex;
     align-items: center;
     justify-content: center;
-    height:100vh;
 
     li{
       font-family: $h-font;
@@ -33,6 +32,12 @@ body.pages{
     }
     h1, p{
       color:$brand-brown;
+    }
+  }
+
+  @include screen(medium){
+    .split-screen--right{
+      height:100vh;
     }
   }
 }

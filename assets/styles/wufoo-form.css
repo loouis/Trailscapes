@@ -1,3 +1,7 @@
+.wufoo{
+  font-family: arial, sans-serif;
+}
+
 #header{
   display:none;
 }
@@ -11,18 +15,63 @@ input.field, textarea, textarea.textarea{
   background: none;
 }
 
-.wufoo{
-  font-family: "brandon-grotesque", sans-serif;
-}
-
 .wufoo label.desc, .wufoo legend.desc, label.desc, legend.desc{
   font-weight: normal;
 }
 
+form li.error{
+  background: none !important;
+}
+
+#errorMsgLbl{
+  color:black !important;
+  margin-bottom:10px;
+}
+
+#errorLi, .error-container{
+   background: none !important;
+   border: none !important;
+   text-align: left !important;
+}
+#errorMsg b{
+  background-color: initial !important;
+  padding:0 !important;
+}
+
+form span.req{
+  color: black !important;
+}
+
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{
   width: 100%;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 2px solid #000000;
 }
+
+.wufoo > ul li.focused label.desc{
+  color:white;
+}
+.wufoo > ul li.focused input, .wufoo .focused textarea.textarea{
+  border-bottom:2px solid white;
+  font-weight:bold;
+}
+
+.wufoo > ul li div input {
+  padding-bottom:10px;
+}
+
+.wufoo .buttons input#saveForm{
+  text-transform: uppercase;
+  background:white;
+  color:black;
+  outline:none;
+  border:none;
+  padding: 10px 16px;
+  font-size: 0.85em;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+
 
 /*.noI form li, .altInstruct form li{
   position:relative;
@@ -53,11 +102,11 @@ input.field, textarea, textarea.textarea{
 /* ----------------------------------  //Focused styles */
 
 select{
-  font-family: "brandon-grotesque", sans-serif !important;
+  font-family: arial, sans-serif;
 }
 
 input[type="submit"] {
-  font-family: 'VeneerTwo' !important;
+  font-family: arial, sans-serif;
 }
 
 form li{
