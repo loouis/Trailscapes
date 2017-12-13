@@ -1,0 +1,37 @@
+<!-- Styles -->
+<!-- @import "gallery-images.scss" -->
+<div class="gallery-container">
+  <div class="slider-container">
+
+    <button title="%title%" type="button" class="mfp-close">CLOSE</button>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NfLVVJOuY5M" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+
+  <script>
+    (function($){
+
+      var mySlider = $('.bxslider'),
+          MySliderNextBtn = $(".gallery-slider-nav__btn--next");
+
+      // BX Slider
+      mySlider.bxSlider({
+        controls: false,
+        pagerCustom: '#bx-pager',
+        startSlide: 0,
+      });
+
+      $('.gallery-slider-nav__btn').click(function(event) {
+        event.preventDefault();
+
+        if( $(this).hasClass(MySliderNextBtn) ){
+          mySlider.goToNextSlide();
+        }else{
+          mySlider.goToPrevSlide();
+        }
+      });
+
+    })(jQuery);
+  </script>
+</div>

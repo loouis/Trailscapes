@@ -34,6 +34,23 @@ body.services-trailbuilds{
   }
 }
 
+body.services-events{
+
+  @include screen(medium){
+    .bg-image{
+      position:fixed;
+      left:0;
+      right:0;
+      bottom:0;
+      width:100%;
+      height:100%;
+      z-index:-1;
+      background-size: cover;
+      background-image: url(assets/images/services-events-bg.jpg);
+    }
+  }
+}
+
 body.services-tracks{
 
   .gallery{
@@ -53,6 +70,29 @@ body.services-tracks{
       z-index:-1;
       background-size: cover;
       background-image: url(assets/images/prjs-hemyock-bg.jpg);
+    }
+  }
+}
+
+body.services-tree-surgery{
+
+  .gallery{
+    background-size: cover;
+    background-image: url(assets/images/services-tree-surgery-bg.jpg);
+    background-repeat: no-repeat;
+  }
+
+  @include screen(medium){
+    .bg-image{
+      position:fixed;
+      left:0;
+      right:0;
+      bottom:0;
+      width:100%;
+      height:100%;
+      z-index:-1;
+      background-size: cover;
+      background-image: url(assets/images/services-tree-surgey-bg.jpg);
     }
   }
 }
@@ -125,11 +165,12 @@ body.services{
       padding-right:15%;
       padding-left: 7.5%;
       padding-top:0;
+      padding-bottom:0;
       justify-content: center;
       align-items: center;
 
       .services-text{
-        h1, p{
+        h1, p, li{
           color:white;
         }
       }

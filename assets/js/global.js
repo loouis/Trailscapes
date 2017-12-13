@@ -11,6 +11,9 @@
     $mainHeader.removeClass('main-header--visible');
   }
 
+  //fitvids
+  $(".slider-container__video").fitVids();
+
   // Navigation show and hide
   $hamburgerBtn.on('click', function(){
     $body.toggleClass('body--scroll-fix');

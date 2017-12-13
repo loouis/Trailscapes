@@ -271,6 +271,14 @@
 
 .slider-container{
 
+	&__video{
+		max-width:960px;
+		margin: 0 auto;
+		position: relative;
+		top:50%;
+		transform: translateY(-50%);
+	}
+
 	.bxslider{
 		height: 100vh;
 

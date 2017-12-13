@@ -31,6 +31,7 @@ nav.nav{
     right:-1px;
     z-index: 100;
     background:$brand-brown;
+    border-radius:0;
 
     &__line{
       transition: transform .3s ease-in-out;

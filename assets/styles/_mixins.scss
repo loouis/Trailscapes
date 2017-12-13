@@ -7,7 +7,7 @@
     @media (min-width: 440px) { @content; }
   }
   @else if $point == medium {
-    @media (min-width: 680px) { @content; }
+    @media (min-width: 680px) and (min-height:620px) { @content; }
   }
   @else if $point == mediummiddle {
     @media (min-width: 980px) { @content; }
